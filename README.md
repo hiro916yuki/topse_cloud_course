@@ -35,4 +35,8 @@ Webノードを新しい環境に用意します。
     　\#  cd /root/work/deploy/task/  
     　\#  ./delete_old_webnode.sh  
 
+監視と連動することも確認済みですが、反映までに若干時間がかかります。
+
+以上。
+
 
