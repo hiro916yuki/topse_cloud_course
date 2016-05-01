@@ -15,8 +15,7 @@ monitorノードによって各ノードが適切に監視されているもの�
 /root/work/deploy/task/ 配下に、以下のスクリプトを配置する必要があります。  
     　1. deploy_and_switch_to_new_webnode.sh  
     　2. delete_old_webnode.sh  
-    　3. delete_webnode.sh  
-    　4. switch_to_old_webnode.sh
+    　3. switch_to_old_webnode.sh
 
 デプロイサーバにログイン後、以下を実行することで、古い環境と同じ数の
 Webノードを新しい環境に用意します。  
@@ -35,7 +34,7 @@ Webノードを新しい環境に用意します。
     　\#  cd /root/work/deploy/task/  
     　\#  ./delete_old_webnode.sh  
 
-監視と連動することも確認済みですが、反映までに若干時間がかかります。
+監視と連動することも確認済みですが、反映までに若干時間がかかることがあります。
 
 以上。
 
