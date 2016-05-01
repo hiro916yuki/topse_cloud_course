@@ -12,7 +12,7 @@ monitorノードによって各ノードが適切に監視されているもの�
 
 また、新しいWebノードにデプロイするwarについては、コミット済みとします。
 
-/root/work/deploy/task/ 配下に、以下のスクリプトを配置する必要があります。  
+まず、deployノードの/root/work/deploy/task/ 配下に、以下のスクリプトを配置する必要があります。  
     　1. deploy_and_switch_to_new_webnode.sh  
     　2. delete_old_webnode.sh  
     　3. switch_to_old_webnode.sh
